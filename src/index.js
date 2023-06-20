@@ -85,7 +85,7 @@ async function getData() {
 
 async function buildChart(data) {
   const years = Object.values(data.dimension.Vuosi.category.label);
-  const population = data.value;
+  const population = Object.values(data.value);
 
   const chartData = {
     labels: years,
