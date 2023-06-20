@@ -103,5 +103,4 @@ async function buildChart(data) {
       regionFill: 0
     }
   });
-  chart.draw();
 }
